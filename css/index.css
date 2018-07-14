@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 1303px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: #808080;
+}
+
+h1 {
+	text-align: center;
+}
+
+i {
+	font-style: normal;
+}
+
+.list {
+	width: 1303px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.list dl {
+	float: left;
+	width: 300px;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+.list dl:hover {
+	border-color: red;
+}
+
+.list dl+dl {
+	margin-left: 5px;
+}
+
+.list dl img {
+	width: 100%;
+	text-align: center;
+}
+
+.list dl dd {
+	text-align: center;
+}
+
+.list dl dd span {
+	font: bold 22px/22px "微软雅黑";
+	color: red;
+}
+
+.list dl dd button {
+	height: 30px;
+	width: 100px;
+	font: 400 18px/30px "微软雅黑";
+	background-color: darkred;
+	color: #fff;
+	border: none;
+}
+
+.list dl dd button:hover {
+	background-color: red;
+}
+
+.mycar {
+	width: 200px;
+	font: bold 16px/30px "微软雅黑";
+	text-align: center;
+	margin: 30px 200px;
+	border: 1px solid #CCCCCC;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+
+.mycar a {
+	display: block;
+	width: 100%;
+	font: bold 16px/30px "微软雅黑";
+}
+
+.mycar:hover {
+	background-color: gold
+}
+
+.mycar i {
+	font: bold 22px/30px "微软雅黑";
+	color: red;
+	position: absolute;
+	right: 10px;
+	top: 0;
+}
